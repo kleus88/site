@@ -11,17 +11,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          elevation: 0.0,
-          backgroundColor: Colors.white,
-          leading: IconButton(
-            padding: EdgeInsets.only(left: 25),
-            onPressed: () {},
-            icon: Image.asset(
-              'img/menu.png',
-            ),
-          ),
-        ),
+        backgroundColor: Colors.white,
         body: BodyScreen(),
       ),
     );
