@@ -17,9 +17,7 @@ class _ChooseTicketsTextState extends State<ChooseTicketsText> {
         'Decide how many tickets you want to buy\n(up to 50 tickets are available per person).\n And you are on the way to victory.',
         textAlign: TextAlign.center,
         style: TextStyle(
-            fontSize: width / 80,
-            color: Colors.black,
-            fontFamily: 'Rufina Regular'),
+            fontSize: width / 80, color: Colors.black, fontFamily: 'RobotoLi'),
       ),
     );
   }
@@ -42,9 +40,7 @@ class _BuyTicketsTextState extends State<BuyTicketsText> {
         'Fill out the registration form for the lottery participant and\npay for the number of tickets you have chosen.\nWe use a lottery drum to draw beautiful watches. The\ndrawing is recorded on video.\nIt is available on our website after finishing.',
         textAlign: TextAlign.center,
         style: TextStyle(
-            fontSize: width / 80,
-            color: Colors.black,
-            fontFamily: 'Rufina Regular'),
+            fontSize: width / 80, color: Colors.black, fontFamily: 'RobotoLi'),
       ),
     );
   }
@@ -67,9 +63,7 @@ class _WinLuxuryTextState extends State<WinLuxuryText> {
         "That's all! You can get a new watch worth from 10,000  bucks -\nfor 25  bucks only. Good luck!",
         textAlign: TextAlign.center,
         style: TextStyle(
-            fontSize: width / 80,
-            color: Colors.black,
-            fontFamily: 'Rufina Regular'),
+            fontSize: width / 80, color: Colors.black, fontFamily: 'RobotoLi'),
       ),
     );
   }

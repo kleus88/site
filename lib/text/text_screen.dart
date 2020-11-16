@@ -22,7 +22,7 @@ class _TextScreenState extends State<TextScreen> {
           style: TextStyle(
             fontSize: width / 80,
             color: Colors.black,
-            fontFamily: 'Rufina Regular',
+            fontFamily: 'RobotoLi',
           ),
           children: <TextSpan>[
             TextSpan(
