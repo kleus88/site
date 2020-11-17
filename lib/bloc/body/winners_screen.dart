@@ -48,6 +48,14 @@ class _WinnersScreenState extends State<WinnersScreen> {
                           text: "\nWinner of the Rolex Daytona 'Panda'",
                           style: TextStyle(),
                         ),
+                        TextSpan(
+                          text:
+                              '\n"I’ve been buying tickets for some time and finally won a very\nnice Daytona. I’m still buying tickets and will hopefully get a\nsecond win. Brad delivered me the watch in person in\nLondon. Was a very nice experience."',
+                          style: TextStyle(
+                              fontSize: width / 95,
+                              color: Colors.black,
+                              fontFamily: 'RobotoLi'),
+                        ),
                       ],
                     ),
                   ),
@@ -73,8 +81,19 @@ class _WinnersScreenState extends State<WinnersScreen> {
                       ),
                       children: <TextSpan>[
                         TextSpan(
-                          text: 'Olivier (Belgium)',
+                          text: 'Nick (USA)',
                         ),
+                        TextSpan(
+                          text: "\nWinner of theRolex GMT-Master II 'Rootbeer'",
+                          style: TextStyle(),
+                        ),
+                        TextSpan(
+                            text:
+                                '\n"Super excited to be the competition winner and to have won\nthe amazing Rolex Rootbeer! They hold competitions for\nsome of the most desirable watches on the market, regularly,\nand you always feel like you’ve got a chance to win. Highly\nrecommended, and best of luck to all players!"',
+                            style: TextStyle(
+                                fontSize: width / 95,
+                                color: Colors.black,
+                                fontFamily: 'RobotoLi')),
                       ],
                     ),
                   ),
@@ -108,7 +127,19 @@ class _WinnersScreenState extends State<WinnersScreen> {
                       ),
                       children: <TextSpan>[
                         TextSpan(
-                          text: 'Olivier (Belgium)',
+                          text: 'Marcus (Germany)',
+                        ),
+                        TextSpan(
+                          text: "Winner of the Rolex Daytona 'Panda'",
+                          style: TextStyle(),
+                        ),
+                        TextSpan(
+                          text:
+                              '\n"I’ve been buying tickets for some time and finally won a\nvery nice Daytona. I’m still buying tickets and will hopefully\nget a second win. Brad delivered me the watch in person in\nLondon. Was a very nice experience."',
+                          style: TextStyle(
+                              fontSize: width / 95,
+                              color: Colors.black,
+                              fontFamily: 'RobotoLi'),
                         ),
                       ],
                     ),
@@ -135,8 +166,14 @@ class _WinnersScreenState extends State<WinnersScreen> {
                       ),
                       children: <TextSpan>[
                         TextSpan(
-                          text: 'Olivier (Belgium)',
+                          text: 'OBoris (Russian Federation)',
                         ),
+                        TextSpan(
+                            text:
+                                "\nWinner of the Rolex GMT-Master II 'Rootbeer'"),
+                        TextSpan(
+                            text:
+                                '\n"Super excited to be the competition winner and to have won\nthe amazing Rolex Rootbeer! They hold competitions for\nsome of the most desirable watches on the market, regularly,\nand you always feel like you`ve got a chance to win. Highly\nrecommended, and best of luck to all players!"'),
                       ],
                     ),
                   ),

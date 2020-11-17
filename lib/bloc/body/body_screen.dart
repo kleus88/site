@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:site/bloc/body/bottom_body_screen.dart';
 import 'package:site/bloc/body/fon_bar.dart';
+import 'package:site/bloc/body/supporting_screen.dart';
 import 'package:site/bloc/body/winners_screen.dart';
 import 'package:site/text/text_screen.dart';
 
@@ -126,6 +127,16 @@ class _BodyScreenState extends State<BodyScreen> {
           DrawingResults(),
           Padding(padding: EdgeInsets.only(top: width * 0.08)),
           WinnersScreen(),
+          Padding(padding: EdgeInsets.only(top: width * 0.08)),
+          Container(
+              width: width * 0.7,
+              height: 1,
+              color: Color.fromARGB(255, 201, 201, 201)),
+          SupportingScreen(),
+          Container(
+              width: width * 0.7,
+              height: 1,
+              color: Color.fromARGB(255, 201, 201, 201)),
         ],
       ),
     );
