@@ -13,6 +13,7 @@ class _SupportingScreenState extends State<SupportingScreen> {
       child: Stack(
         children: [
           RichText(
+            textAlign: TextAlign.center,
             text: TextSpan(
                 text: 'Supporting Charities',
                 style: TextStyle(

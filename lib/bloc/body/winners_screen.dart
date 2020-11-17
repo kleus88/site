@@ -38,15 +38,19 @@ class _WinnersScreenState extends State<WinnersScreen> {
                   RichText(
                     text: TextSpan(
                       style: TextStyle(
-                        fontSize: width / 60,
-                      ),
+                          fontSize: width / 60,
+                          color: Colors.black,
+                          fontFamily: 'Rufina Regular'),
                       children: <TextSpan>[
                         TextSpan(
                           text: 'Olivier (Belgium)',
                         ),
                         TextSpan(
                           text: "\nWinner of the Rolex Daytona 'Panda'",
-                          style: TextStyle(),
+                          style: TextStyle(
+                              fontSize: width / 90,
+                              color: Colors.black,
+                              fontFamily: 'RobotoThinItalic'),
                         ),
                         TextSpan(
                           text:
@@ -77,15 +81,19 @@ class _WinnersScreenState extends State<WinnersScreen> {
                     textAlign: TextAlign.start,
                     text: TextSpan(
                       style: TextStyle(
-                        fontSize: width / 60,
-                      ),
+                          fontSize: width / 60,
+                          color: Colors.black,
+                          fontFamily: 'Rufina Regular'),
                       children: <TextSpan>[
                         TextSpan(
                           text: 'Nick (USA)',
                         ),
                         TextSpan(
                           text: "\nWinner of theRolex GMT-Master II 'Rootbeer'",
-                          style: TextStyle(),
+                          style: TextStyle(
+                              fontSize: width / 90,
+                              color: Colors.black,
+                              fontFamily: 'RobotoThinItalic'),
                         ),
                         TextSpan(
                             text:
@@ -123,15 +131,19 @@ class _WinnersScreenState extends State<WinnersScreen> {
                     textAlign: TextAlign.start,
                     text: TextSpan(
                       style: TextStyle(
-                        fontSize: width / 60,
-                      ),
+                          fontSize: width / 60,
+                          color: Colors.black,
+                          fontFamily: 'Rufina Regular'),
                       children: <TextSpan>[
                         TextSpan(
                           text: 'Marcus (Germany)',
                         ),
                         TextSpan(
-                          text: "Winner of the Rolex Daytona 'Panda'",
-                          style: TextStyle(),
+                          text: "\nWinner of the Rolex Daytona 'Panda'",
+                          style: TextStyle(
+                              fontSize: width / 90,
+                              color: Colors.black,
+                              fontFamily: 'RobotoThinItalic'),
                         ),
                         TextSpan(
                           text:
@@ -162,18 +174,28 @@ class _WinnersScreenState extends State<WinnersScreen> {
                     textAlign: TextAlign.start,
                     text: TextSpan(
                       style: TextStyle(
-                        fontSize: width / 60,
-                      ),
+                          fontSize: width / 60,
+                          color: Colors.black,
+                          fontFamily: 'Rufina Regular'),
                       children: <TextSpan>[
                         TextSpan(
                           text: 'OBoris (Russian Federation)',
                         ),
                         TextSpan(
                             text:
-                                "\nWinner of the Rolex GMT-Master II 'Rootbeer'"),
+                                "\nWinner of the Rolex GMT-Master II 'Rootbeer'",
+                            style: TextStyle(
+                                fontSize: width / 90,
+                                color: Colors.black,
+                                fontFamily: 'RobotoThinItalic')),
                         TextSpan(
-                            text:
-                                '\n"Super excited to be the competition winner and to have won\nthe amazing Rolex Rootbeer! They hold competitions for\nsome of the most desirable watches on the market, regularly,\nand you always feel like you`ve got a chance to win. Highly\nrecommended, and best of luck to all players!"'),
+                          text:
+                              '\n"Super excited to be the competition winner and to have won\nthe amazing Rolex Rootbeer! They hold competitions for\nsome of the most desirable watches on the market, regularly,\nand you always feel like you`ve got a chance to win. Highly\nrecommended, and best of luck to all players!"',
+                          style: TextStyle(
+                              fontSize: width / 95,
+                              color: Colors.black,
+                              fontFamily: 'RobotoLi'),
+                        ),
                       ],
                     ),
                   ),
