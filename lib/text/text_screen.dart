@@ -92,11 +92,12 @@ class _ChooseTicketsState extends State<ChooseTickets> {
     double width = MediaQuery.of(context).size.width;
     return Container(
       //Choose tickets
-      alignment: Alignment.center,
+      //alignment: Alignment.center,
       //padding: EdgeInsets.only(top: width * 0.15),
-      width: MediaQuery.of(context).size.width * 0.3,
-      child: Stack(
-        alignment: Alignment.center,
+      width: width * 0.3,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        //alignment: Alignment.topCenter,
         children: [
           Text(
             'Choose tickets',
@@ -105,7 +106,7 @@ class _ChooseTicketsState extends State<ChooseTickets> {
                 color: Colors.black,
                 fontFamily: 'Rufina Regular'),
           ),
-          Padding(padding: EdgeInsets.only(top: width * 0.02)),
+          Padding(padding: EdgeInsets.only(top: width / 90)),
           ChooseTicketsText(),
         ],
       ),
@@ -124,11 +125,12 @@ class _BuyTicketsState extends State<BuyTickets> {
     double width = MediaQuery.of(context).size.width;
     return Container(
       //Buy tickets
-      alignment: Alignment.center,
+      alignment: Alignment.topCenter,
       // padding: EdgeInsets.only(top: width * 0.15),
       width: width * 0.3,
-      child: Stack(
-        alignment: Alignment.center,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        //alignment: Alignment.topCenter,
         children: [
           Text(
             'Buy tickets',
@@ -155,11 +157,12 @@ class _WinLuxuryWatchState extends State<WinLuxuryWatch> {
     double width = MediaQuery.of(context).size.width;
     return Container(
       //Win a luxury watch
-      alignment: Alignment.center,
+      alignment: Alignment.topCenter,
       //   padding: EdgeInsets.only(top: width * 0.15),
       width: MediaQuery.of(context).size.width * 0.3,
-      child: Stack(
-        alignment: Alignment.center,
+      child: Column(
+        //  alignment: Alignment.topCenter,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Text(
             'Win a luxury watch',

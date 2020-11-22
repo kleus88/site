@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:site/bloc/body/bottom_body_screen.dart';
+import 'package:site/bloc/body/bottom_screen.dart';
 import 'package:site/bloc/body/fon_bar.dart';
 import 'package:site/bloc/body/supporting_screen.dart';
 import 'package:site/bloc/body/winners_screen.dart';
@@ -88,7 +89,7 @@ class _BodyScreenState extends State<BodyScreen> {
                     width: width * 0.3,
                     alignment: Alignment.center,
                     child: Text(
-                      'Win on time',
+                      'Win on time\n \n ',
                       style: TextStyle(
                           fontSize: width / 25,
                           color: Colors.black,
@@ -120,7 +121,7 @@ class _BodyScreenState extends State<BodyScreen> {
           Padding(padding: EdgeInsets.only(top: width * 0.02)),
           TextScreenIcon2(),
           BottoBodyScreen(),
-          TicketText(),
+          // TicketText(),
           Padding(padding: EdgeInsets.only(top: width * 0.02)),
           FonBarScreen(),
           Padding(padding: EdgeInsets.only(top: width * 0.05)),
@@ -137,6 +138,7 @@ class _BodyScreenState extends State<BodyScreen> {
               width: width * 0.7,
               height: 1,
               color: Color.fromARGB(255, 201, 201, 201)),
+          BottomScreen(),
         ],
       ),
     );

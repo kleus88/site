@@ -11,10 +11,10 @@ class _ChooseTicketsTextState extends State<ChooseTicketsText> {
     double width = MediaQuery.of(context).size.width;
     return Container(
       alignment: Alignment.topCenter,
-      padding: EdgeInsets.only(top: width * 0.15),
+      //  padding: EdgeInsets.only(top: width * 0.15),
       width: MediaQuery.of(context).size.width * 0.3,
       child: Text(
-        'Decide how many tickets you want to buy\n(up to 50 tickets are available per person).\n And you are on the way to victory.',
+        'Decide how many tickets you want to buy\n(up to 50 tickets are available per person).\n And you are on the way to victory.\n  \n   ',
         textAlign: TextAlign.center,
         style: TextStyle(
             fontSize: width / 80, color: Colors.black, fontFamily: 'RobotoLi'),
@@ -34,7 +34,7 @@ class _BuyTicketsTextState extends State<BuyTicketsText> {
     double width = MediaQuery.of(context).size.width;
     return Container(
       alignment: Alignment.topCenter,
-      padding: EdgeInsets.only(top: width * 0.15),
+      //  padding: EdgeInsets.only(top: width * 0.15),
       width: MediaQuery.of(context).size.width * 0.3,
       child: Text(
         'Fill out the registration form for the lottery participant and\npay for the number of tickets you have chosen.\nWe use a lottery drum to draw beautiful watches. The\ndrawing is recorded on video.\nIt is available on our website after finishing.',
@@ -57,10 +57,10 @@ class _WinLuxuryTextState extends State<WinLuxuryText> {
     double width = MediaQuery.of(context).size.width;
     return Container(
       alignment: Alignment.topCenter,
-      padding: EdgeInsets.only(top: width * 0.15),
+      // padding: EdgeInsets.only(top: width * 0.15),
       width: MediaQuery.of(context).size.width * 0.3,
       child: Text(
-        "That's all! You can get a new watch worth from 10,000  bucks -\nfor 25  bucks only. Good luck!",
+        "That's all! You can get a new watch worth from 10,000  bucks -\nfor 25  bucks only. Good luck!\n  \n  \n  ",
         textAlign: TextAlign.center,
         style: TextStyle(
             fontSize: width / 80, color: Colors.black, fontFamily: 'RobotoLi'),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:site/bloc/body/body_screen.dart';
+import 'package:site/bloc/screen/registr.dart';
 
 class MyApp extends StatefulWidget {
   @override
@@ -12,7 +13,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.white,
-        body: BodyScreen(),
+        body: RegistrFormPage(),
       ),
     );
   }

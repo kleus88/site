@@ -8,15 +8,19 @@ class FonBarScreen extends StatefulWidget {
 class _FonBarScreenState extends State<FonBarScreen> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Stack(
-        children: [
-          Image.asset(
-            'img/fonbar.png',
-            fit: BoxFit.cover,
-          ),
-        ],
-      ),
+    return Stack(
+      overflow: Overflow.visible,
+      children: [
+        Image.asset(
+          'img/fonbar.png',
+          fit: BoxFit.cover,
+        ),
+        Container(
+          color: Colors.red,
+          width: 40,
+          height: 80,
+        ),
+      ],
     );
   }
 }

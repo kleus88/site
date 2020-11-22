@@ -15,7 +15,7 @@ class _BottoBodyScreenState extends State<BottoBodyScreen> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Stack(
+        Column(
           children: [
             Container(
               padding: EdgeInsets.all(75),
@@ -26,10 +26,10 @@ class _BottoBodyScreenState extends State<BottoBodyScreen> {
                 ),
               ),
             ),
-            //  ChooseTickets(),
+            ChooseTickets(),
           ],
         ),
-        Stack(
+        Column(
           children: [
             Container(
               padding: EdgeInsets.all(75),
@@ -40,10 +40,10 @@ class _BottoBodyScreenState extends State<BottoBodyScreen> {
                 ),
               ),
             ),
-            //   BuyTickets(),
+            BuyTickets(),
           ],
         ),
-        Stack(
+        Column(
           children: [
             Container(
               padding: EdgeInsets.all(75),
@@ -54,7 +54,7 @@ class _BottoBodyScreenState extends State<BottoBodyScreen> {
                 ),
               ),
             ),
-            // WinLuxuryWatch(),
+            WinLuxuryWatch(),
           ],
         ),
       ],
@@ -62,7 +62,7 @@ class _BottoBodyScreenState extends State<BottoBodyScreen> {
   }
 }
 
-class TicketText extends StatefulWidget {
+/*class TicketText extends StatefulWidget {
   @override
   _TicketTextState createState() => _TicketTextState();
 }
@@ -81,4 +81,4 @@ class _TicketTextState extends State<TicketText> {
       ),
     );
   }
-}
+}*/
